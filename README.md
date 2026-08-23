@@ -1,16 +1,22 @@
-# React + Vite
+# React Intro Exercise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the react intro exercise. You will learn how react works, how to use components.
 
-Currently, two official plugins are available:
+## Instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Clone this repo to your local machine
+- Push this to your branch
+- Open you terminal in the exercise directory and run `npm install`. This installs all dependencies needed for the exercise, including react
+- You can run the code with `npm run dev` in your terminal
 
-## React Compiler
+## The Goal
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+When you open the exercise, you will realise the code is bunched up in the `App.jsx`. Your job will be separate the code into components in order to make the code more readable and reusable
 
-## Expanding the ESLint configuration
+## Requirements
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Create a new folder inside the `src/` folder called `components/`
+- Look at the code in `App.jsx` and separate it into sections (such as the navigation bar, main page sections, and individual cards)
+- Create separate `.jsx` files for these sections inside your components folder (e.g., `Navbar.jsx`, `Section.jsx`, `Card.jsx`)
+- Move the respective code into your new files and export them as functional components
+- Import your new components back into `src/App.jsx`. Make sure the application compiles successfully and looks completely identical to how it looked before you started
