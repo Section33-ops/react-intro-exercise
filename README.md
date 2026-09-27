@@ -1,17 +1,19 @@
 # React Intro Exercise
 
-Welcome to the react intro exercise. You will learn how react works, how to use components.
+Welcome to the React intro exercise. You will learn how React works, how to use components.
 
 ## Instructions
 
 - Clone this repo to your local machine
-- Push this to your branch
-- Open you terminal in the exercise directory and run `npm install`. This installs all dependencies needed for the exercise, including react
+- Create your own branch like you did with the other exercises
+- Push any changes to this branch
+- If you don't have node, follow this [link](https://nodejs.org/en/download/current) to get the installer(for windows). To check if node is installed, run `node --version` in the terminal
+- Open you terminal in the exercise directory and run `npm install`. This installs all dependencies needed for the exercise, including React
 - You can run the code with `npm run dev` in your terminal
 
 ## The Goal
 
-When you open the exercise, you will realise the code is bunched up in the `App.jsx`. Your job will be separate the code into components in order to make the code more readable and reusable
+When you open the exercise, you will see that the code is bunched up in the `App.jsx`. Your goal is to make this app follow the conventions of React and translate the existing HTML into React components. We do this by separating the code into diferent parts in order to make the code more readable and reusable
 
 ## Requirements
 
