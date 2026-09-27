@@ -24,6 +24,7 @@ When you open the exercise, you will realise the code is bunched up in the `App.
 
 ## Things to Know & Keep in Mind
 
+- React files have the `.jsx` extension
 - **Class vs ClassName:** In React, standard HTML `class="..."` attributes must be changed to `className="..."`. Keep an eye out for this when moving code over!
 - **Self-Closing Tags:** Every single HTML tag in React must be closed. Tags like `<img />`, `<input />`, and `<br />` require a trailing slash.
 - **Rule of Props:** Props are read-only (meaning they are immutable). A child component (like `Card.jsx`) should only read the data it receives, never try to change it directly.
